@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Products — GlowIn Skincare</title>
+  <meta name="description" content="Explore GlowIn Skincare products and order via WhatsApp or Instagram DM." />
+  <link rel="icon" href="assets/logo.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '3885353814932015');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=3885353814932015&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
+</head>
+
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header>
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.png" alt="GlowIn Skincare logo">
+        <div><strong>GlowIn</strong><span>Skincare</span></div>
+      </a>
+
+      <button class="menu-btn" aria-label="Open menu">Menu</button>
+
+      <nav aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="products.html">Products</a></li>
+          <li><a href="routine.html">Skincare Tips</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section">
+      <div class="container">
+        <h1>Products</h1>
+        <p class="muted">
+          Tap “Order on WhatsApp” to buy. We’ll confirm price, availability, and delivery in chat.
+        </p>
+
+        <div class="grid3" style="margin-top:14px">
+
+          <!-- Product 1 -->
+          <article class="card product">
+            <h3>GlowIn Face Wash</h3>
+            <p class="muted">
+              A gentle daily cleanser that helps wash away dirt, sweat, and excess oil—leaving skin fresh and comfortable.
+            </p>
+
+            <div class="pills">
+              <span class="pill">Daily cleanse</span>
+              <span class="pill">Gentle feel</span>
+              <span class="pill">Fresh finish</span>
+            </div>
+
+            <div class="cta-row">
+              <button class="btn soft"
+                data-open-product
+                data-name="GlowIn Face Wash"
+                data-desc="A simple, gentle cleanser for everyday use. Designed to leave your skin feeling clean, fresh, and comfortable after washing."
+                data-tags="Daily cleanse, Gentle feel, Fresh finish"
+                data-wa-text="Hi GlowIn Skincare! I want to order the GlowIn Face Wash.">
+                View details
+              </button>
+
+              <a class="btn primary" data-track="whatsapp"
+                 href="https://wa.me/2349034824462?text=Hi%20GlowIn%20Skincare!%20I%20want%20to%20order%20the%20GlowIn%20Face%20Wash."
+                 target="_blank" rel="noopener">Order on WhatsApp</a>
+
+              <a class="btn" data-track="instagram"
+                 href="https://instagram.com/Glowinskin_care"
+                 target="_blank" rel="noopener">DM to Order</a>
+            </div>
+          </article>
+
+          <!-- Product 2 -->
+          <article class="card product">
+            <h3>GlowIn Moisturiser (Lotion/Gel)</h3>
+            <p class="muted">
+              A lightweight lotion-gel moisturiser that helps keep skin feeling hydrated, smooth, and comfortable—without heaviness.
+            </p>
+
+            <div class="pills">
+              <span class="pill">Lightweight</span>
+              <span class="pill">All skin types</span>
+              <span class="pill">Daily moisture</span>
+            </div>
+
+            <div class="cta-row">
+              <button class="btn soft"
+                data-open-product
+                data-name="GlowIn Moisturiser (Lotion/Gel)"
+                data-desc="A lightweight lotion-gel moisturiser suitable for all skin types. Ideal for everyday use to help maintain hydration and a soft, healthy-looking finish."
+                data-tags="Lightweight, All skin types, Daily moisture"
+                data-wa-text="Hi GlowIn Skincare! I want to order the GlowIn Moisturiser (Lotion/Gel).">
+                View details
+              </button>
+
+              <a class="btn primary" data-track="whatsapp"
+                 href="https://wa.me/2349034824462?text=Hi%20GlowIn%20Skincare!%20I%20want%20to%20order%20the%20GlowIn%20Moisturiser%20(Lotion%2FGel)."
+                 target="_blank" rel="noopener">Order on WhatsApp</a>
+
+              <a class="btn" data-track="instagram"
+                 href="https://instagram.com/Glowinskin_care"
+                 target="_blank" rel="noopener">DM to Order</a>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="notice" style="margin-top:16px">
+          Want a recommendation? Message: <strong>skin type</strong> + <strong>main concern</strong>.
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Product Details Modal -->
+  <dialog id="productModal">
+    <div class="modal">
+      <div class="modal-head">
+        <div>
+          <h3 data-modal-title>Product</h3>
+          <p class="meta">Tap WhatsApp to order and we’ll confirm price, availability & delivery.</p>
+        </div>
+        <button class="modal-close" data-close aria-label="Close">Close</button>
+      </div>
+
+      <hr class="hr">
+
+      <p class="muted" data-modal-desc></p>
+
+      <div class="pills" data-modal-pills style="margin-top:10px"></div>
+
+      <div class="cta-row" style="margin-top:14px">
+        <a class="btn primary" data-track="whatsapp" data-modal-wa target="_blank" rel="noopener">
+          Order on WhatsApp
+        </a>
+        <a class="btn" data-track="instagram"
+           href="https://instagram.com/Glowinskin_care" target="_blank" rel="noopener">
+          DM on Instagram
+        </a>
+        <button class="btn" data-close>Done</button>
+      </div>
+
+      <div class="notice" style="margin-top:14px">
+        <strong>Friendly note:</strong> If irritation occurs, stop use and consult a professional.
+      </div>
+    </div>
+  </dialog>
+
+  <footer>
+    <div class="container foot">
+      <small>© <span id="y"></span> GlowIn Skincare</small>
+      <div style="display:flex; gap:12px; flex-wrap:wrap">
+        <a href="privacy.html">Privacy</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+          </html>
