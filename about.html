@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About — GlowIn Skincare</title>
+  <meta name="description" content="GlowIn Skincare: gentle, effective skincare that supports healthy, naturally glowing skin. Learn our mission, vision, and values." />
+  <link rel="icon" href="assets/logo.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '3885353814932015');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=3885353814932015&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
+</head>
+
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header>
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.png" alt="GlowIn Skincare logo">
+        <div><strong>GlowIn</strong><span>Skincare</span></div>
+      </a>
+
+      <button class="menu-btn" aria-label="Open menu">Menu</button>
+
+      <nav aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="routine.html">Skincare Tips</a></li>
+          <li><a class="active" href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section">
+      <div class="container">
+        <h1>About GlowIn</h1>
+        <p class="muted">
+          <strong>GlowIn</strong> represents inner beauty, healthy skin, confidence, and radiance that comes from within—not just cosmetic enhancement.
+        </p>
+
+        <div class="grid3" style="margin-top:14px">
+          <div class="card">
+            <h3>Vision</h3>
+            <p class="muted">
+              To become a trusted skincare brand that promotes healthy, glowing, and confident skin through effective and gentle skincare solutions.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Mission</h3>
+            <p class="muted">
+              To provide high-quality face wash and skincare products that cleanse, nourish, and reveal natural beauty.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Our promise</h3>
+            <p class="muted">
+              Gentle yet effective skincare that fits into real life—simple, clean, and consistent.
+            </p>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:16px">
+          <h2>Core values</h2>
+          <ul>
+            <li>Skin Health</li>
+            <li>Authentic Beauty</li>
+            <li>Confidence</li>
+            <li>Quality</li>
+            <li>Simplicity</li>
+            <li>Trust</li>
+          </ul>
+
+          <hr class="hr">
+
+          <h2>Brand personality</h2>
+          <p class="muted">
+            Clean, gentle, modern, trustworthy, feminine & soft, and premium (affordable luxury).
+          </p>
+        </div>
+
+        <div class="cta-row" style="margin-top:14px">
+          <a class="btn primary" href="products.html">Explore Products</a>
+          <a class="btn soft" data-track="whatsapp"
+             href="https://wa.me/2349034824462?text=Hi%20GlowIn%20Skincare!%20I%27d%20like%20help%20choosing%20between%20the%20Face%20Wash%20and%20Moisturiser."
+             target="_blank" rel="noopener">Chat on WhatsApp</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container foot">
+      <small>© <span id="y"></span> GlowIn Skincare</small>
+      <div style="display:flex; gap:12px; flex-wrap:wrap">
+        <a href="privacy.html">Privacy</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+  </html>
