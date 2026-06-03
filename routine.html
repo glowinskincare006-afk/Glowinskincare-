@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Skincare Tips — GlowIn Skincare</title>
+  <meta name="description" content="Simple skincare routine tips: cleanse, moisturise, glow. Gentle habits for healthy-looking skin." />
+  <link rel="icon" href="assets/logo.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '3885353814932015');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=3885353814932015&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
+</head>
+
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header>
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.png" alt="GlowIn Skincare logo">
+        <div><strong>GlowIn</strong><span>Skincare</span></div>
+      </a>
+
+      <button class="menu-btn" aria-label="Open menu">Menu</button>
+
+      <nav aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a class="active" href="routine.html">Skincare Tips</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section">
+      <div class="container">
+        <h1>Skincare Tips</h1>
+        <p class="muted">Simple, gentle habits that support clear, healthy-looking skin.</p>
+
+        <div class="grid3" style="margin-top:14px">
+
+          <article class="card">
+            <h3>Morning routine</h3>
+            <ol class="muted" style="padding-left:18px; margin:.4rem 0">
+              <li><strong>GlowIn Face Wash</strong> — gently cleanse to start fresh</li>
+              <li><strong>GlowIn Moisturiser</strong> — lightweight hydration</li>
+              <li><strong>Sunscreen</strong> — protect your skin (recommended)</li>
+            </ol>
+            <p class="muted" style="font-size:14px">Tip: Use lukewarm water and pat skin dry—no harsh rubbing.</p>
+          </article>
+
+          <article class="card">
+            <h3>Night routine</h3>
+            <ol class="muted" style="padding-left:18px; margin:.4rem 0">
+              <li><strong>GlowIn Face Wash</strong> — wash off dirt & oil from the day</li>
+              <li><strong>GlowIn Moisturiser</strong> — keep skin soft overnight</li>
+            </ol>
+            <p class="muted" style="font-size:14px">Tip: Cleanse before bed, even on tired days—consistency matters.</p>
+          </article>
+
+          <article class="card">
+            <h3>Glow habits</h3>
+            <ul class="muted" style="padding-left:18px; margin:.4rem 0">
+              <li>Drink enough water daily</li>
+              <li>Don’t over-wash (twice a day is enough)</li>
+              <li>Be gentle—avoid harsh scrubbing</li>
+              <li>Stay consistent for best results</li>
+            </ul>
+          </article>
+
+        </div>
+
+        <div class="card" style="margin-top:16px">
+          <h2>Need a routine recommendation?</h2>
+          <p class="muted">Send: skin type + concern (acne/oily/dullness/uneven tone). We’ll reply with a simple plan.</p>
+          <div class="cta-row">
+            <a class="btn primary" data-track="whatsapp"
+              href="https://wa.me/2349034824462?text=Hi%20GlowIn%20Skincare!%20My%20skin%20type%20is%20____%20and%20my%20main%20concern%20is%20____.%20Please%20recommend%20a%20routine."
+              target="_blank" rel="noopener">Message on WhatsApp</a>
+            <a class="btn" href="products.html">See Products</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container foot">
+      <small>© <span id="y"></span> GlowIn Skincare</small>
+      <div style="display:flex; gap:12px; flex-wrap:wrap">
+        <a href="privacy.html">Privacy</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+  </html>
